@@ -7,4 +7,28 @@ def oddeven() :
         print("even")
     else:
         print("odd")
-        
+    
+def swap(x, y):
+    temp = x
+    x = y
+    y = temp
+
+x = 2
+y = 3
+swap(x, y)
+print(x)
+print(y)
+
+def local():
+    s = "I Love Python"
+    print(s)
+local()
+
+def add():
+    b += ' and javascipt'
+    print(b)
+    b = "Looking For Python"
+
+b = "python"
+add()
+print(b)
