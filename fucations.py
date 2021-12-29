@@ -32,3 +32,13 @@ def add():
 b = "python"
 add()
 print(b)
+
+
+def add1(c, d):
+    return (c+d)
+
+def subtract(c, d):
+    return (c-d)
+
+c = 4
+d = 5
