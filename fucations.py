@@ -7,6 +7,7 @@ def oddeven() :
         print("even")
     else:
         print("odd")
+a = 3  
     
 def swap(x, y):
     temp = x
