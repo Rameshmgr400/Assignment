@@ -1,8 +1,15 @@
-# Program to check if a string is palindrome or not
-my_str = 'Incomprehensibilities'
-my_str = my_str.casefold()
-rev_str = reversed(my_str)
-if list(my_str) == list(rev_str):
-   print("The string is a palindrome.")
-else:
-   print("The string is not a palindrome.")
+   #reverse a string
+s = input("Enter a string: ")
+words = s.split(' ')
+string =[]
+for word in words:
+	string.insert(0, word)
+print("Reversed String:")
+print(" ".join(string))
+
+# Length of a string
+a = 'Python programming'
+b = 'r a m e s h magar'
+print(len(a))
+print(len(b))
+
